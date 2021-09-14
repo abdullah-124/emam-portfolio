@@ -1,0 +1,71 @@
+/* gootle font  */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@100;300;500&display=swap');    
+*{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.bg-header{
+    background: linear-gradient(#000000c9, #000000ce), url(imges/header-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    z-index: -2;
+    /* position: relative; */
+}
+.logo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-shadow: 2px 3px 5px #000;
+}
+.topbar{
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+.nav-item a{
+    font-weight: 500;
+}
+.nav-item a:hover{
+    color: #fff;
+    text-shadow: 0px 0px 2px #fff;
+
+}
+
+.header-1{
+    font-size: 60px;
+    color: #fff;
+}
+.para-1{
+    color: #eee;
+    font-size: 15px;
+}
+.custom-input{
+    background: none;
+    box-shadow: 1px 1px 5px #333;
+    border: none;
+}
+/* keyword section  */
+#keyword{
+    transform: translateY(-100px);
+    z-index: 5;
+    background-color: rgba(8, 6, 6, 0.555);
+    padding: 50px 20px;
+    border-radius: 6px;
+}
+.info{
+    padding: 30px 10px;
+    margin: 10px auto;
+    border-radius: 7px;
+    background: #fff;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
+}
+.info img{
+    width: 40px;
+    height: auto;
+}
+.info h6{
+    color: #444;
+}

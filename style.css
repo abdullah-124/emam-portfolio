@@ -78,3 +78,12 @@ a{
 .info h6{
     color: #444;
 }
+
+/* // resposive design  */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .info{
+        padding: 40px 10px;
+        width: 47%;
+        margin: 10px auto;
+    }
+}
